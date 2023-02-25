@@ -1,0 +1,1 @@
+ gunicorn --chdir ../ live_scheduler:api --workers 1 --bind 0.0.0.0:5009 --reload

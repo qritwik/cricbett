@@ -1,0 +1,8 @@
+#------------------------------------------------------------------------------------#
+# config for logging
+#------------------------------------------------------------------------------------#
+logging:
+  log_path: '/opt/logs/live-scheduler'
+  log_file: 'cricbett-live-scheduler.log'
+  log_format:
+    "%(asctime)s %(levelname)s %(filename)s %(funcName)s [%(lineno)d]: %(message)s"

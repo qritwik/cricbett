@@ -1,0 +1,55 @@
+## docker build --tag cricbett-db:4.5 --file DockerfileAdmin .
+## docker tag cricbett-db:4.5 qritwik/cricbett-db:4.5
+## docker push qritwik/cricbett-db:4.5
+## ssh -i cricbett.pem ubuntu@13.233.78.222
+##On EC2
+## docker pull qritwik/cricbett-db:4.5
+## docker run -d -p 80:80 qritwik/cricbett-db:4.5
+## http://13.233.78.222/admin
+
+# On every migration delete all tables inside the cricbett DB in ec2
+
+FROM python:3.10-alpine
+
+RUN apk add --update --no-cache \
+    build-base \
+    libffi-dev \
+    gcc \
+    mariadb-connector-c-dev \
+    python3-dev \
+    musl-dev \
+    wget \
+    nano \
+    curl
+
+
+# Set the working directory to /app/api
+WORKDIR /app
+
+# Copy the requirements.txt file to the container
+COPY requirements.txt /app/
+
+# Copy the cricbett_db, db and manage.py file to the container
+COPY cricbett_db /app/cricbett_db/
+COPY db /app/db/
+COPY manage.py /app/
+
+# Upgrade pip to latest version
+RUN  pip3 install --upgrade pip
+
+# Upgrade the setuptools package and install the packages listed in requirements.txt
+RUN pip3 install -U setuptools
+RUN pip3 install -r /app/requirements.txt
+
+# Expose port 80 for the Django server
+EXPOSE 80
+
+# Run the command to make migrations and apply them
+#RUN python3 manage.py migrate db zero
+RUN python3 manage.py makemigrations jet
+RUN python3 manage.py makemigrations db
+RUN python3 manage.py migrate
+
+# Set the entrypoint and command to run the Django server
+ENTRYPOINT ["python3"]
+CMD ["manage.py", "runserver", "0.0.0.0:80"]

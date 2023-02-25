@@ -1,0 +1,368 @@
+2023-01-30 18:20:10,603 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 18:20:25,615 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 18:20:25,643 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 18:20:33,744 ERROR logger_client.py error [84]: Error in GET request to RetrieveGamesByMatchService endpoint: Match with id 40 does not exist
+2023-01-30 18:20:39,772 INFO logger_client.py info [68]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-01-30 21:54:18,094 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 21:54:18,094 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 21:56:08,490 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 21:56:08,491 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 22:04:15,074 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 22:04:15,075 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 22:15:15,613 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-01-30 22:15:15,615 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:16:35,597 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:16:35,597 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:16:44,465 INFO logger_client.py info [68]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-03 19:22:02,848 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:22:02,848 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:22:05,924 ERROR logger_client.py error [84]: MyGameService: Player with token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Ijg3MDk5OTY1ODAiLCJzdGF0dXMiOiJBQ1RJVkUifQ.UfAXUuCvEMN1gz6Z007AcCSSvFU6QSAKyGtky4Q71pA not found
+2023-02-03 19:22:13,864 ERROR logger_client.py error [84]: MyGameService: Player with token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6Ijg3MDk5OTY1ODAiLCJzdGF0dXMiOiJBQ1RJVkUifQ.UfAXUuCvEMN1gz6Z007AcCSSvFU6QSAKyGtky4Q71pA not found
+2023-02-03 19:24:56,400 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:24:56,477 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:25:06,234 ERROR logger_client.py error [84]: Error in GET request to RetrieveGamesByMatchService endpoint: 'Player' object is not iterable
+2023-02-03 19:25:24,932 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:25:24,934 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:25:29,232 ERROR logger_client.py error [84]: Error in GET request to RetrieveGamesByMatchService endpoint: 'Player' object is not iterable
+2023-02-03 19:28:42,276 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:28:42,276 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:29:00,019 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:29:00,038 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-03 19:29:03,619 INFO logger_client.py info [68]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-03 19:54:48,040 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 19:54:48,040 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 19:56:42,742 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 19:56:42,742 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:01:58,772 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:01:58,773 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:22:28,907 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:22:28,907 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:22:31,602 ERROR logger_client.py error [84]: Error while decoding request body: Expecting value: line 1 column 1 (char 0)
+2023-02-03 20:23:09,261 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:23:09,265 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:23:11,672 ERROR logger_client.py error [84]: Error while decoding request body: Expecting value: line 1 column 1 (char 0)
+2023-02-03 20:23:24,067 ERROR logger_client.py error [84]: Missing required field in request body: 'amount'
+2023-02-03 20:24:20,561 ERROR logger_client.py error [84]: Missing required field in request body: 'amount'
+2023-02-03 20:24:25,020 ERROR logger_client.py error [84]: Missing required field in request body: 'amount'
+2023-02-03 20:24:25,578 ERROR logger_client.py error [84]: Missing required field in request body: 'amount'
+2023-02-03 20:24:25,927 ERROR logger_client.py error [84]: Missing required field in request body: 'amount'
+2023-02-03 20:24:26,316 ERROR logger_client.py error [84]: Missing required field in request body: 'amount'
+2023-02-03 20:24:26,725 ERROR logger_client.py error [84]: Missing required field in request body: 'amount'
+2023-02-03 20:25:11,854 ERROR logger_client.py error [84]: Error while creating payment object: column "payment_datetime" of relation "db_payment" does not exist
+LINE 1: ...RT INTO "db_payment" ("amount", "payment_status", "payment_d...
+                                                             ^
+
+2023-02-03 20:25:23,100 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:25:23,100 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:25:26,597 ERROR logger_client.py error [84]: Error while creating payment object: column "payment_datetime" of relation "db_payment" does not exist
+LINE 1: ...RT INTO "db_payment" ("amount", "payment_status", "payment_d...
+                                                             ^
+
+2023-02-03 20:26:10,088 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:26:10,093 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:26:10,537 ERROR logger_client.py error [84]: Error while creating payment object: column "payment_datetime" of relation "db_payment" does not exist
+LINE 1: ...yment" ("amount", "payment_id", "payment_status", "payment_d...
+                                                             ^
+
+2023-02-03 20:31:37,774 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:31:37,774 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:31:44,725 ERROR logger_client.py error [84]: Error while creating payment object: column "payment_datetime" of relation "db_payment" does not exist
+LINE 1: ...yment" ("amount", "payment_id", "payment_status", "payment_d...
+                                                             ^
+
+2023-02-03 20:43:15,612 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-03 20:43:15,612 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 04:06:23,260 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 04:06:23,260 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 19:37:06,188 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 19:37:06,188 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 19:38:56,253 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 19:40:04,325 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 19:40:04,493 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-04 19:40:39,617 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 19:20:04,763 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 19:20:04,763 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 19:20:12,452 ERROR logger_client.py error [84]: Error while creating token: module 'datetime' has no attribute 'now'
+2023-02-05 19:20:39,079 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 19:20:39,079 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:05:21,189 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:05:21,189 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:05:25,383 ERROR logger_client.py error [84]: Error while creating token: module 'datetime' has no attribute 'now'
+2023-02-05 20:06:21,329 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:06:21,329 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:06:23,681 ERROR logger_client.py error [84]: Error while creating token: module 'datetime' has no attribute 'now'
+2023-02-05 20:06:53,760 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:06:53,791 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:07:10,402 ERROR logger_client.py error [84]: Error while creating token: (1062, "Duplicate entry 'ABC' for key 'db_token.token_id'")
+2023-02-05 20:12:13,906 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:12:13,906 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:16:20,395 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:16:20,395 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:17:18,844 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:18:00,289 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:18:00,290 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:18:07,029 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:18:36,747 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:18:36,747 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:18:41,939 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:19:32,569 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:19:32,569 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:19:36,317 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:20:27,090 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:20:27,122 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:20:29,459 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:20:58,386 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:20:58,387 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:21:01,148 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:21:30,299 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:21:30,316 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:21:32,045 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:21:41,743 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:21:41,774 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:21:44,902 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:21:44,903 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:21:47,650 ERROR logger_client.py error [84]: Missing required field in request body: 'payment_status'
+2023-02-05 20:22:29,528 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:22:29,528 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:23:58,054 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:23:58,055 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:29:43,129 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:29:43,129 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:29:50,647 ERROR logger_client.py error [84]: Error while creating payment object: PaymentEndpoint.is_valid_request() missing 1 required positional argument: 'request'
+2023-02-05 20:30:16,357 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:30:16,360 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:30:20,368 ERROR logger_client.py error [84]: Error while creating payment object: PaymentEndpoint.is_valid_request() missing 1 required positional argument: 'request'
+2023-02-05 20:30:32,919 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:30:32,928 INFO logger_client.py info [68]: Cricbett-Booking API is live now!
+2023-02-05 20:30:50,971 ERROR logger_client.py error [84]: Not a valid payment_status in request body.
+2023-02-05 23:37:29,067 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:37:29,067 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:39:36,246 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:39:36,246 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:40:09,236 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:40:09,325 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:40:32,299 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:40:32,354 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:41:14,889 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:41:14,889 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:41:33,506 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:41:33,558 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:42:02,587 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:42:02,698 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:42:07,349 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:42:07,517 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:42:45,851 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:42:45,900 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:43:43,034 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:43:43,034 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:44:16,224 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:44:16,235 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:44:29,934 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:44:29,948 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:45:15,313 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:45:15,407 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:45:40,542 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:45:40,611 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:45:42,174 INFO logger_client.py info [68]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-05 23:46:07,946 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:46:07,947 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:46:15,413 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:46:15,436 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:49:25,577 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-05 23:49:25,577 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-08 21:59:04,314 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-08 21:59:04,314 INFO logger_client.py info [68]: Cricbett-Feeds API is live now!
+2023-02-08 21:59:24,610 INFO logger_client.py info [68]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-08 21:59:44,089 INFO logger_client.py info [68]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-08 22:00:02,772 INFO logger_client.py info [68]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-08 22:00:13,494 INFO logger_client.py info [68]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=ACTIVE
+2023-02-08 22:00:20,265 INFO logger_client.py info [68]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-08 22:04:57,727 INFO logger_client.py info [68]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-09 00:12:42,505 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-09 00:12:42,505 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-09 00:13:02,203 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-09 00:14:31,332 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-11 00:53:11,891 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-11 00:53:11,891 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-11 00:54:56,954 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-11 00:54:57,192 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 00:39:30,193 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 00:39:30,200 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 00:39:54,445 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 00:41:27,515 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 00:41:27,637 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 00:41:29,739 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 00:44:33,143 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 00:59:47,684 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 00:59:47,684 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 01:01:20,017 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:19:02,002 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:19:02,001 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:20:06,129 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:20:17,746 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:31:07,512 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:35:59,578 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:35:59,578 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:36:04,705 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:47:36,677 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:47:36,677 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:47:43,863 ERROR logger_client.py error [89]: MatchService: Failed to retrieve matches: strptime() argument 1 must be str, not datetime.datetime
+2023-02-12 15:48:04,066 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:48:04,066 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:48:11,003 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:50:52,285 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:50:52,290 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:50:54,819 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:51:18,161 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:51:18,163 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:51:24,291 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:52:30,052 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:52:30,083 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:52:33,226 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:53:05,527 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=
+2023-02-12 15:53:19,497 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET$MATCH_STATUS=UPCOMING and match_status=
+2023-02-12 15:53:25,469 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET$MATCH_STATUS=COMPLETED and match_status=
+2023-02-12 15:53:36,393 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=LIVE
+2023-02-12 15:53:44,690 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=COMPLETED
+2023-02-12 15:54:53,703 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:54:53,703 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:56:29,873 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'dict' object has no attribute 'match'
+2023-02-12 15:56:44,747 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: Match with id 2 does not exist
+2023-02-12 15:56:49,962 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: Match with id 3 does not exist
+2023-02-12 15:56:53,143 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'dict' object has no attribute 'match'
+2023-02-12 15:58:55,083 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 15:58:55,083 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:03:27,999 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:03:27,999 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:03:30,240 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'dict' object has no attribute 'match'
+2023-02-12 16:03:43,961 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:03:43,976 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:05:28,034 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:05:28,034 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:05:31,836 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:06:03,144 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:06:03,171 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:06:07,710 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'dict' object has no attribute 'match'
+2023-02-12 16:06:44,889 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:06:44,889 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:06:50,127 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'dict' object has no attribute 'match'
+2023-02-12 16:07:12,399 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:07:12,399 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:07:16,204 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'dict' object has no attribute 'match'
+2023-02-12 16:07:32,301 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:07:32,312 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:07:34,197 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:07:53,880 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:07:53,890 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:08:55,604 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:08:55,625 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:09:11,646 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'dict' object has no attribute 'match'
+2023-02-12 16:09:54,215 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:09:54,245 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:09:55,712 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:16:46,568 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:16:46,569 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:16:48,766 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:17:06,526 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:17:06,526 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:17:08,544 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'int' object has no attribute 'match_name'
+2023-02-12 16:17:18,406 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:17:18,446 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:17:20,183 ERROR logger_client.py error [89]: Error in GET request to RetrieveGamesByMatchService endpoint: 'int' object has no attribute 'match_name'
+2023-02-12 16:17:32,274 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:17:32,341 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:17:35,401 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:31:40,730 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:31:40,730 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:31:46,570 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=COMPLETED
+2023-02-12 16:38:46,755 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:38:46,755 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:38:47,770 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:39:04,856 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:39:04,864 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:45:26,552 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:45:26,554 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:45:55,469 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:45:55,471 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:45:59,646 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:46:49,547 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-12 16:48:25,903 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:48:26,296 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-12 16:48:30,019 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=COMPLETED
+2023-02-18 23:36:57,250 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-18 23:36:57,250 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-19 21:42:44,237 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-19 21:42:44,237 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-19 21:44:46,815 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:45:26,773 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:46:06,322 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:46:14,057 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:46:35,464 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:49:01,104 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:49:06,638 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:49:18,366 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:49:27,703 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:49:48,964 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:19,368 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:27,941 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:46,423 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:46,544 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:46,669 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:46,803 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:46,927 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:47,054 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:47,145 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:47,271 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:47,393 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:47,515 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:50:47,608 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:51:14,695 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:51:14,974 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:15,253 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:15,452 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:15,647 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:15,920 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:16,200 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:16,488 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:17,173 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:17,655 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:17,942 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:33,169 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:51:33,459 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:52,850 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:51:53,050 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:53,423 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:53,713 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:53,985 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:54,278 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:54,549 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:54,832 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:55,132 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:55,339 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:51:55,625 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:29,850 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:52:47,363 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:52:47,561 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:47,840 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:48,116 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:48,394 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:48,680 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:48,877 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:49,153 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:49,428 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:49,716 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:52:49,919 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:53:18,023 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:53:18,308 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:53:24,335 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:53:24,637 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 21:53:51,752 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 21:53:51,941 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 22:31:54,462 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-19 22:31:54,462 INFO logger_client.py info [73]: Cricbett-Feeds API is live now!
+2023-02-19 22:32:03,351 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 22:32:03,917 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 22:32:21,855 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 22:32:22,055 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed
+2023-02-19 22:32:26,706 INFO logger_client.py info [73]: MatchService: Successfully retrieved matches with match_type=CRICKET and match_status=UPCOMING
+2023-02-19 22:32:26,899 INFO logger_client.py info [73]: GET request to RetrieveGamesByMatchService endpoint successfully processed

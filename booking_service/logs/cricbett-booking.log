@@ -1,0 +1,101 @@
+2023-02-09 00:16:00,181 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-09 00:16:00,185 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-09 00:16:07,013 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-09 00:16:07,073 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-09 00:16:53,878 INFO logger_client.py info [73]: Payment object created for payment_id:10
+2023-02-09 00:18:32,725 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-09 00:18:32,725 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-09 00:18:35,187 ERROR logger_client.py error [89]: Booking for game:1 already exists for player:8709996580.
+2023-02-09 00:19:13,453 INFO logger_client.py info [73]: Booking object created for booking_id:11
+2023-02-11 17:09:32,731 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:09:32,731 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:10:45,272 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:10:45,278 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:10:45,823 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is COMPLETED.
+2023-02-11 17:10:51,662 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is COMPLETED.
+2023-02-11 17:10:58,805 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is COMPLETED.
+2023-02-11 17:11:20,974 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is LIVE.
+2023-02-11 17:11:31,112 ERROR logger_client.py error [89]: Booking for game:1 already exists for player:8709996580.
+2023-02-11 17:12:59,384 INFO logger_client.py info [73]: Payment object created for payment_id:11
+2023-02-11 17:13:26,218 INFO logger_client.py info [73]: Payment object created for payment_id:12
+2023-02-11 17:16:30,272 INFO logger_client.py info [73]: Booking object created for booking_id:16
+2023-02-11 17:16:34,362 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 17:16:41,157 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 17:16:42,970 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 17:16:46,109 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is COMPLETED.
+2023-02-11 17:16:52,180 ERROR logger_client.py error [89]: Error while creating booking object: Game matching query does not exist.
+2023-02-11 17:17:00,746 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 17:17:07,307 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 17:17:21,670 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 17:38:49,919 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:38:49,921 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:38:51,967 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is COMPLETED.
+2023-02-11 17:39:23,816 ERROR logger_client.py error [89]: Booking for game:1 already exists for player:8709996580.
+2023-02-11 17:39:32,763 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 17:40:22,168 INFO logger_client.py info [73]: Booking object created for booking_id:17
+2023-02-11 17:40:22,172 INFO logger_client.py info [73]: Booking object created for booking_id:17
+2023-02-11 17:40:38,900 ERROR logger_client.py error [89]: Booking for game:1 already exists for player:8709996580.
+2023-02-11 17:40:45,300 ERROR logger_client.py error [89]: Error while creating booking object: Player matching query does not exist.
+2023-02-11 17:40:52,136 ERROR logger_client.py error [89]: Error while creating booking object: Player matching query does not exist.
+2023-02-11 17:41:02,733 ERROR logger_client.py error [89]: Booking for game:1 already exists for player:8709996580.
+2023-02-11 17:41:09,871 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is COMPLETED.
+2023-02-11 17:41:16,151 INFO logger_client.py info [73]: Booking object created for booking_id:18
+2023-02-11 17:41:16,156 INFO logger_client.py info [73]: Booking object created for booking_id:18
+2023-02-11 17:43:44,638 ERROR logger_client.py error [89]: Not a valid payment_status in request body.
+2023-02-11 17:43:51,861 ERROR logger_client.py error [89]: Payment status is not SUCCESSFUL for Payment:15.
+2023-02-11 17:44:48,198 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:44:48,292 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:44:50,688 ERROR logger_client.py error [89]: Payment status is not SUCCESSFUL for Payment:16. Hence booking can't be made.
+2023-02-11 17:45:12,373 INFO logger_client.py info [73]: Booking object created for booking_id:19
+2023-02-11 17:45:12,378 INFO logger_client.py info [73]: Booking object created for booking_id:19
+2023-02-11 17:50:45,772 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:50:45,772 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 17:50:50,935 INFO logger_client.py info [73]: Booking object created for booking_id:20
+2023-02-11 17:50:50,966 INFO logger_client.py info [73]: Booking object created for booking_id:20
+2023-02-11 18:05:33,714 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:05:33,727 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:06:30,801 INFO logger_client.py info [73]: Booking object created for booking_id:21
+2023-02-11 18:06:30,806 INFO logger_client.py info [73]: Booking object created for booking_id:21
+2023-02-11 18:07:51,116 ERROR logger_client.py error [89]: Booking for game:4 already exists for player:8709996580.
+2023-02-11 18:08:13,643 ERROR logger_client.py error [89]: Not a valid payment_status in request body.
+2023-02-11 18:08:18,375 ERROR logger_client.py error [89]: Payment status is not SUCCESSFUL for Payment:20. Hence booking can't be made.
+2023-02-11 18:08:28,354 INFO logger_client.py info [73]: Booking object created for booking_id:22
+2023-02-11 18:08:28,357 INFO logger_client.py info [73]: Booking object created for booking_id:22
+2023-02-11 18:09:15,927 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:09:15,931 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:09:19,759 INFO logger_client.py info [73]: Booking object created for booking_id:23
+2023-02-11 18:09:19,764 INFO logger_client.py info [73]: Booking object created for booking_id:23
+2023-02-11 18:09:24,067 ERROR logger_client.py error [89]: Booking for game:1 already exists for player:8709996580.
+2023-02-11 18:09:35,295 INFO logger_client.py info [73]: Booking object created for booking_id:24
+2023-02-11 18:09:35,298 INFO logger_client.py info [73]: Booking object created for booking_id:24
+2023-02-11 18:13:58,838 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:13:58,838 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:14:39,101 INFO logger_client.py info [73]: Booking object created for booking_id:25
+2023-02-11 18:14:39,107 INFO logger_client.py info [73]: Booking object created for booking_id:25
+2023-02-11 18:15:13,638 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:15:13,639 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:15:23,360 INFO logger_client.py info [73]: Booking object created for booking_id:26
+2023-02-11 18:15:23,363 INFO logger_client.py info [73]: Booking object created for booking_id:26
+2023-02-11 18:27:35,721 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:27:35,750 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:27:48,125 INFO logger_client.py info [73]: Booking object created for booking_id:27
+2023-02-11 18:27:48,129 INFO logger_client.py info [73]: Booking object created for booking_id:27
+2023-02-11 18:28:45,444 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:28:45,445 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:29:03,232 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:29:03,253 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:29:18,701 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:29:18,741 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 18:29:26,788 INFO logger_client.py info [73]: Booking object created for booking_id:28
+2023-02-11 18:29:26,792 INFO logger_client.py info [73]: Booking object created for booking_id:28
+2023-02-11 23:21:20,813 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 23:21:20,813 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 23:22:26,654 INFO logger_client.py info [73]: Booking object created for booking_id:29
+2023-02-11 23:22:26,662 INFO logger_client.py info [73]: Booking object created for booking_id:29
+2023-02-11 23:23:27,016 INFO logger_client.py info [73]: Booking object created for booking_id:30
+2023-02-11 23:23:27,019 INFO logger_client.py info [73]: Booking object created for booking_id:30
+2023-02-11 23:26:22,619 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 23:26:22,624 INFO logger_client.py info [73]: Cricbett-Booking API is live now!
+2023-02-11 23:26:37,483 ERROR logger_client.py error [89]: Bookings can only be made for upcoming games. The current game status is COMPLETED.
+2023-02-11 23:26:43,834 INFO logger_client.py info [73]: Booking object created for booking_id:31
+2023-02-11 23:26:43,842 INFO logger_client.py info [73]: Booking object created for booking_id:31

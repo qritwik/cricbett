@@ -1,0 +1,151 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "OTP Service API"
+  description: "API for sending and verifying OTPs"
+basePath: "/api"
+schemes:
+  - "http"
+paths:
+  /sendotp:
+    post:
+      summary: "Sends OTP to a phone number"
+      description: "Sends OTP to the provided phone number and creates or updates the user with the phone number and OTP as the password"
+      tags:
+        - "OTP"
+      parameters:
+        - in: "body"
+          name: "phone"
+          description: "Phone number to send OTP to"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        201:
+          description: "OTP sent successfully to new user"
+          schema:
+            type: "object"
+            properties:
+              user_type:
+                type: "string"
+                description: "Type of user (new or old)"
+              message:
+                type: "string"
+                description: "Success message"
+              phone:
+                type: "string"
+                description: "Phone number to which OTP was sent"
+        200:
+          description: "OTP sent successfully to existing user"
+          schema:
+            type: "object"
+            properties:
+              user_type:
+                type: "string"
+                description: "Type of user (new or old)"
+              message:
+                type: "string"
+                description: "Success message"
+              phone:
+                type: "string"
+                description: "Phone number to which OTP was sent"
+        404:
+          description: "Phone number not provided in the request"
+          schema:
+            type: "object"
+            properties:
+              message:
+                type: "string"
+                description: "Error message"
+        500:
+          description: "Internal server error"
+          schema:
+            type: "object"
+            properties:
+              message:
+                type: "string"
+                description: "Error message"
+              error:
+                type: "string"
+                description: "Error details"
+  /verify_otp:
+    post:
+      summary: "Verifies OTP"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: "object"
+              properties:
+                phone:
+                  type: "string"
+                  description: "Phone number for which OTP needs to be verified"
+                otp:
+                  type: "string"
+                  description: "OTP that needs to be verified"
+      responses:
+        200:
+          description: "Successful OTP verification"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  message:
+                    type: "string"
+                    example: 'otp verified successfully'
+                    description: "Success message"
+                  phone:
+                    type: "string"
+                    example: "8709996580"
+                    description: "Phone number of the player"
+                  token:
+                    type: "string"
+                    example: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJ1c2VybmFtZSI6IjEyMzQ1Njc4OTAiLCJleHAiOjE1OTU2MjUzNzUsImVtYWlsIjoiIiwib3JpZ19pYXQiOjE1OTU2MjE3NzV9.xIb-N7XfJ"
+                    description: "Token generated"
+        401:
+          description: "Invalid OTP"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  message:
+                    type: "string"
+                    description: "Error message"
+                  phone:
+                    type: "string"
+                    description: "Phone number of the player"
+                  token:
+                    type: "string"
+                    description: "Token generated"
+        404:
+          description: "Phone not present in Verify OTP Request"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  message:
+                    type: "string"
+                    description: "Error message"
+                  phone:
+                    type: "string"
+                    description: "Phone number of the player"
+                  token:
+                    type: "string"
+                    description: "Token generated"
+        500:
+          description: "Internal server error"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  message:
+                    type: "string"
+                    description: "Error message"
+                  error:
+                    type: "string"
+                    description: "Error details"

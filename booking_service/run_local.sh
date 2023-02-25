@@ -1,0 +1,1 @@
+gunicorn --chdir ../ start_before_match_api:api --workers 2 --bind 0.0.0.0:5008 --reload

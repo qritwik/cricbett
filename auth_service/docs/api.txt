@@ -1,0 +1,37 @@
+1. SendOtp:
+This API endpoint is used for sending an OTP to a provided phone number. It is a POST endpoint and accepts a JSON request body with the following parameters:
+
+phone (string): the phone number to send the OTP to. This is a required field.
+
+It returns a JSON response with the following fields:
+user_type (string): "new_user" if a new user is created, "old_user" if the provided phone number already exists in the system.
+message (string): "otp sent successfully" if the OTP is sent, an error message if there is an issue.
+phone (string): the phone number the OTP was sent to.
+
+HTTP status codes:
+201: if a new user is created and the OTP is sent successfully.
+200: if the OTP is sent successfully to an existing user.
+404: if the phone number is not provided in the request.
+500: if there is an internal server error.
+
+2. VerifyOtp:
+This API endpoint is used for verifying an OTP. It is a POST endpoint and accepts a JSON request body with the following parameters:
+
+phone (string): the phone number the OTP was sent to. This is a required field.
+otp (string): the OTP to be verified. This is a required field.
+
+It returns a JSON response with the following fields:
+message (string): "otp verified successfully" if the OTP is verified, an error message if there is an issue.
+token (string): the JWT token for the user if the OTP is verified successfully.
+
+HTTP status codes:
+200: if the OTP is verified successfully.
+401: if the OTP is not verified.
+404: if the phone number or OTP is not provided in the request.
+500: if there is an internal server error.
+
+Note: The LoggerClient is used for logging in both endpoints. The authenticate function from Django's auth library is used to authenticate the user using their phone number and password. The create_new_user method is used to create a new user if they do not exist in the system.
+
+
+
+

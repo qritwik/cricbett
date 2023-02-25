@@ -1,0 +1,16 @@
+2023-02-11 09:50:02,970 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 09:50:02,972 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 10:06:34,592 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 10:06:34,593 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 10:10:28,312 ERROR logger_client.py error [89]: Error decoding request body: Expecting value: line 1 column 1 (char 0)
+2023-02-11 10:10:39,571 ERROR logger_client.py error [89]: Pancard not present in Request. Key pancard is required!
+2023-02-11 10:10:52,788 INFO logger_client.py info [73]: Updated pancard for wallet:3
+2023-02-11 10:11:37,158 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 10:11:37,158 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 10:11:43,410 ERROR logger_client.py error [89]: Pancard not present in Request. Key pancard is required!
+2023-02-11 10:11:47,402 ERROR logger_client.py error [89]: Pancard not present in Request. Key pancard is required!
+2023-02-11 10:11:54,641 INFO logger_client.py info [73]: Updated pancard for wallet:3
+2023-02-11 10:12:12,907 INFO logger_client.py info [73]: Updated pancard for wallet:3
+2023-02-11 23:19:36,132 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 23:19:36,135 INFO logger_client.py info [73]: Cricbett-Wallet API is live now!
+2023-02-11 23:20:45,728 INFO logger_client.py info [73]: Updated pancard for wallet:4

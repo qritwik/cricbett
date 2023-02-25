@@ -1,0 +1,102 @@
+Match
+match_id
+match_name
+match_start_datetime
+match_end_datetime
+match_venue
+Match_type: enum
+first_team: enum
+second_team: enum
+list<Game>
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+MatchType: Enum
+CRICKET
+FOOTBALL
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Team: Enum
+INDIA
+AUSTRALIA
+ENGLAND
+SOUTH AFRICA
+NEW ZEALAND
+PAKISTAN
+BANGLADESH
+SRI LANKA
+IRELAND
+WEST INDIES
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Game
+game_id
+game_type: enum
+<<< Newly Added >>>
+game_item_won: enum
+<<< Newly Added >>>
+game_status: enum
+match
+list<Booking>
+money_collected
+money_distributed
+money_saved
+
+GameItemType:
+A
+B
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+GameType: Enum
+WIN_PREDICT
+TOSS_PREDICT
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+GameStatus: Enum
+RUNNING
+COMPLETED
+NOT_STARTED
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Booking
+booking_id
+user_id
+game_id
+user_bid_price
+user_bid_team -> user_bid_item
+user_bid_multiplier
+user_won_price
+is_user_won
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+User
+user_id
+username
+name
+email
+phone
+otp
+token
+list<Game>
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+Token
+token_id
+token_creation_datetime
+token_expiry_datetime
+is_token_active
+token_status
+
++-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+TokenStatus: Enum
+ACTIVE
+EXPIRED
+BLOCKED
